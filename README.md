@@ -22,7 +22,7 @@ step 1 : In Cmd inside the project folder run the command `npm run dev` to start
 
 step 2 : Press ctrl and click on the link to open the web application
 
-#Tasks Structure and approach
+# Tasks Structure and approach
 
 Since mulitiple flows have to be created and multiple users to be handled using local storage the flow for the process is planned as following
 
@@ -32,15 +32,27 @@ After Entering and saving this will route to Flow creation and view Section to v
 
 selecting a flow will move you to workflow creation section which on saving will save the flow with the flowId as Key
 
-#Work Flow Section:
+# Work Flow Section:
 
 The workflow section consits of side bar which contains all the nodetypes which can be dragged over to add nodes in the workflow
 
-Node Types:
+# Node Types:
+
 1.Data -> they have the data set as their label and can be dragged into the workflow to use their data<br/> 2. Operational node -> they have a sub category which choses the function they have on the run button
 
-Use of COntext
+# Use of Context
 
 Flow context: controls the creation deletion and controls changes and retrival of flow instance on the node
 
-User context: user Login and Data storage in local storage and retrival
+User context: user Login and Data storage in local storage and retrival.
+
+# Tasks to complete
+
+1. Structure the Data Node
+2. Build the operations Node
+3. Enable connections onEdges
+4. logic for Data passage between Nodes
+5. output Section Table with Pagination
+6. user Context
+7. Login UI
+8. Workflow Selection UI
