@@ -4,9 +4,9 @@ Nodejs - 19.7
 
 # How to Setup in local machine
 
-Step 1: clone the repository from github link:https://github.com/anujkkheria/draganddropworkflow
+Step 1: clone the repository from github using this command
 
-`To Clone run git clone `
+> git clone https://github.com/anujkkheria/draganddropworkflow.git
 
 step 2: Open command prompt(cmd)/powershell and navigate to project folder
 
@@ -20,9 +20,9 @@ step 5: extract the file into the public/Data folder
 
 step 1 : In Cmd inside the project folder run the command `npm run dev` to start the development server
 
-step 2 : Click on the link to open the web application
+step 2 : Press ctrl and click on the link to open the web application
 
-Tasks Structure and approach
+#Tasks Structure and approach
 
 Since mulitiple flows have to be created and multiple users to be handled using local storage the flow for the process is planned as following
 
@@ -32,12 +32,12 @@ After Entering and saving this will route to Flow creation and view Section to v
 
 selecting a flow will move you to workflow creation section which on saving will save the flow with the flowId as Key
 
-Work Flow Section:
+#Work Flow Section:
 
 The workflow section consits of side bar which contains all the nodetypes which can be dragged over to add nodes in the workflow
 
 Node Types:
-1.Data -> they have the data set as their label and can be dragged into the workflow to use their data 2. Operational node -> they have a sub category which choses the function they have on the run button
+1.Data -> they have the data set as their label and can be dragged into the workflow to use their data<br/> 2. Operational node -> they have a sub category which choses the function they have on the run button
 
 Use of COntext
 
